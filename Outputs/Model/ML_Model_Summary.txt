@@ -1,0 +1,30 @@
+
+MACHINE LEARNING MODEL SUMMARY
+
+Model:
+Logistic Regression
+
+Features:
+- Recency
+- Frequency
+- Monetary
+
+Historical Snapshot Date:
+2026-07-03 00:00:00
+
+Target:
+Churn = 1 when the customer placed no order during the
+180-day future observation period after the snapshot date.
+
+Evaluation Metrics:
+Accuracy  : 0.7438
+Precision : 0.0000
+Recall    : 0.0000
+
+Confusion Matrix:
+[[119   0]
+ [ 41   0]]
+
+Important Note:
+The model uses historical customer behaviour available before
+the snapshot date to avoid target leakage.

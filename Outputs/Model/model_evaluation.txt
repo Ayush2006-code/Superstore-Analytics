@@ -1,0 +1,12 @@
+
+MODEL EVALUATION RESULTS
+
+Model: Logistic Regression
+
+Accuracy: 0.7438
+Precision: 0.0000
+Recall: 0.0000
+
+Confusion Matrix:
+[[119   0]
+ [ 41   0]]
